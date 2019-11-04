@@ -1,0 +1,29 @@
+#header-img {
+	background-image: url(../img/bg-masthead.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+	color: $c2;
+	
+	h1 {
+		font-size: 90px;
+		letter-spacing: 2px;
+		word-spacing: 5px;
+	}
+	h2 {
+		font-size: 23px;
+		opacity: 0.8;
+		font-weight: 500;
+	}
+	.content {
+		padding-top: 200px;
+	}
+	.bt1 {
+		margin-top: 50px;
+		text-transform: capitalize;
+		padding: 10px 20px;
+		letter-spacing: 2px;
+	}
+	
+}

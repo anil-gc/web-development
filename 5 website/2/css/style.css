@@ -1,0 +1,241 @@
+body
+{
+    font-family: Lato, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-default .navbar-nav > li:hover:not(#active) > a {
+    color: deepskyblue;
+    transition: 1s;
+}
+
+.navbar 
+{
+    background-color: #445;
+    border-radius: 0;
+    border: none;
+    font-size: 12px;
+    min-height: 70px;
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#first {
+    background-color: deepskyblue;
+    color: #fff;
+}
+
+#first h3 {
+    padding-top: 30px;
+}
+
+#second {
+    padding: 100px 0;
+}
+
+#second h4 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+#second p {
+    line-height: 25px;
+}
+
+#second button {
+    background-color: #445;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#second button:hover {
+    background-color: deepskyblue;
+    color: #000;
+}
+
+#second i {
+    color: #00b3fe;
+    font-size: 60px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+#active {
+    color: deepskyblue;
+}
+
+.img-gallery {
+    float: left;
+    height: 198px;
+    width: 265px;
+    position: relative;
+    z-index: 1;
+}
+
+.effect {
+    height: 198px;
+    width: 265px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,179,254,.9);
+    display: none;
+}
+
+.img-gallery:hover .effect {
+    display: block;
+}
+
+.e1 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.e2 {
+    border: 1px solid #fff;
+    display: inline;
+    padding: 12px 22px;
+    border-radius: 3px;
+}
+
+.e2:hover {
+    background-color: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+#third {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+#third h3 {
+    padding: 20px 0;
+}
+
+#third .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#fourth h5 {
+    font-size: 18px;
+    font-weight: bolder;
+}
+#fourth button {
+    background-color: #445;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+#fourth button:hover {
+    background-color: deepskyblue;
+    color: #000;
+}
+
+.hr {
+    border-bottom: 2px solid #384452;
+}
+
+#fourth p {
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+#fourth p a {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+}
+
+#fifth {
+    background-image: url(../img/t-back.jpg);
+    background-position: center center;
+    min-height: 450px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+#fifth i {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+
+#fifth p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #fff;
+    padding: 0;
+}
+
+#fifth strong {
+    font-size: 18px;
+    display: block;
+    padding: 10px 0;
+}
+
+#sixth {
+    background-color: #f7f7f7;
+    padding: 20px 0 100px 0;;
+}
+
+#fifth big {
+    font-weight: 100;
+    color: #fff;
+}
+
+#sixth h3 {
+    margin: 80px 0 50px 0;
+}
+
+footer {
+    background-color: #384452;
+    color: #fff;
+    padding: 50px 0 50px 0;
+}
+footer .hrf {
+    border-bottom: 2px solid #fff;
+}
+
+footer p {
+    color: #bfc9d3;
+    padding-top: 20px;
+}
+
+.footer-icons i {
+    font-size: 30px;
+    color: #bfc9d3;
+    padding-right: 25px;
+    padding-top: 25px;
+}
+
+.footer-icons i:hover {
+    color: deepskyblue;
+}
+
+  .affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }

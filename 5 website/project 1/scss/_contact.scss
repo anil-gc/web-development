@@ -1,0 +1,34 @@
+.contact-section {
+    background: url(../img/4.jpg) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 60px;
+}
+
+.contact-section h2 {
+    color: #fff;
+}
+
+#contact-overlap {
+    background-color: $c5;
+    padding: 40px 0;
+}
+
+
+.form-control {
+    border-radius: 0;
+    height: 35px;
+}
+
+#button {
+    text-align: center;
+}
+
+#button button {
+        border-radius: 0;
+}
+
+.contact-section h2 {
+    padding-bottom: 50px;
+}

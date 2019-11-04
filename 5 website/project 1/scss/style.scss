@@ -1,0 +1,32 @@
+@import 'variable';
+@import 'nav';
+@import 'header';
+@import 'about';
+@import 'service';
+@import 'portfolio';
+@import 'contact';
+@import 'scrollup';
+@import 'footer';
+@import 'counter';
+@import 'team';
+@import 'testinominals';
+@import 'gallery';
+
+
+* {
+    font-family: 'Roboto', "Droid Arabic Kufi", sans-serif;
+    
+}
+
+h3,h4,h5 {
+	text-transform: capitalize;
+}
+body {
+    position: relative;
+	overflow-x: hidden;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}

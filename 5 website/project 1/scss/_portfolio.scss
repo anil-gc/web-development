@@ -1,0 +1,77 @@
+.portfolio-section {
+    padding: 60px 0;
+}
+
+.pb {
+    padding-bottom: 20px;
+}
+
+#photography {
+     padding-bottom: 20px;   
+}
+
+.gallery {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.gallery img {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    width: 100%;
+    
+}
+
+.gallery-overlap {
+    background-color: $c5;
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    height: 200px;
+    width: 100%;
+    display: none;
+}
+
+.gallery:hover .gallery-overlap {
+    display: block;
+}
+
+.effect {
+    color: #fff;
+}
+
+.effect h6 {
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.e1 {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.e2 {
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #fff;
+}
+
+.e2:hover {
+    background-color: #fff;
+}
+
+.e2:hover i {
+    color: #000;
+}
+
+.e1:hover {
+    background-color: #fff;
+}
+
+.e1:hover i {
+    color: #000;
+}
+

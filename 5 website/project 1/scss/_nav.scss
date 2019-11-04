@@ -1,0 +1,31 @@
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active
+{
+    color: #000;
+    background-color: transparent;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.navbar {
+    padding: 20px;
+    transition: 2s;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.top-nav-collapse {
+    background-color: $c5;
+    padding: 0;
+}

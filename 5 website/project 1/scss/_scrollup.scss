@@ -1,0 +1,16 @@
+#toTop{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+    padding: 5px 10px;
+	cursor: pointer;
+	display: none;
+}
+
+#toTop:hover {
+    background-color:  #3e92cc;
+}
+
+#toTop:hover #tpBom {
+    color: #fff !important;
+}

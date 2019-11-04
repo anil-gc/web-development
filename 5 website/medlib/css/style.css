@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif,serif;
+}
+
+.navbar {
+    background-color:  transparent;
+    padding: 20px 0;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 0px;
+}
+
+.navbar img {
+    margin-top: -16px;
+    width: 120px;
+}
+
+.navbar-default {
+    transition: 0.7s
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: rgba(12, 184, 182, 0.21);
+    color: #fff;
+}
+
+header {
+    background: url(../img/bg-banner.jpg) fixed no-repeat;
+    background-size: cover;
+}
+
+
+#bgi {
+    
+    background-color: RGBA(13, 70, 83, 0.78);
+    min-height: 650px;
+    color: #fff;
+}
+
+
+#logo {
+    padding-top: 190px;
+}
+
+header h1 {
+    font-weight: 900;
+    color: #fff;
+    font-family: 'Candal', sans-serif;
+    padding-bottom: 15px;
+}
+
+#hbutton {
+    background-color: rgba(12, 184, 182, 0.91);
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 3px;
+}
+
+#icons {
+    font-size: 38px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 49%;
+    color: #fff;
+}
+
+.first {
+    padding: 30px 0 100px 0;
+}
+
+.lead1 {
+    color: #999;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lead2 {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+hr {
+    width: 60px;
+    height: 3px;
+    background-color: #ffb737;
+}
+
+#support {
+    color: #0cb8b6;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#service {
+    color: #0cb8b6;
+    font-size: 45px;
+    margin: 25px 0;
+}
+
+#counseling {
+    color: #0cb8b6;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+#healthcare{
+    color: #0cb8b6;
+    font-size: 45px;
+    margin: 25px 0;
+}
+
+.col {
+    background-color: rgba(12, 184, 182, 0.91);
+    color: #fff;
+    font-size: 15px;
+    padding: 20px 10px;
+    border-right: 2px solid #fff;
+    min-height: 250px;
+}
+
+.col .lead {
+    font-size: 17px;
+    text-align: justify;
+}
+
+table,tr {
+    border: 1px solid #fff;
+}
+
+td {
+    padding: 7px 5px;
+}
+
+.third {
+    background-color: rgba(238, 238, 238, 0.15);
+    margin-top: 100px;
+    padding: 50px 0;
+}
+
+big {
+    color: skyblue;
+    display: block;
+    padding-top: 20px;
+}
+
+big:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: 30px;
+    padding-top: 20px;
+    position: absolute;
+    left: -100px;
+    top: 30px;
+}
+
+.arrow i {
+    color: #fff;
+    margin: -16px 17px;;
+    position: absolute;
+}
+
+strong {
+    font-size: 30px;
+    padding: 20px 0;
+    display: block;
+    font-weight: 600;
+}
+
+.fourth {
+    padding: 100px 0 50px 0;
+}
+
+.arrow1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    font-size: 30px;
+    padding-top: 20px;
+    position: absolute;
+    left: -100px;
+    top: 166px;
+}
+
+.arrow1 i {
+    color: #fff;
+    margin: -16px 17px;;
+    position: absolute;
+}
+
+.img-gallery {
+    border: 2px solid  rgba(238, 238, 238,0.9);
+    text-align: center;
+}
+
+em {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img-gallery i {
+    padding: 20px 15px;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+.top-nav-collapse {
+    background-color: rgba(28,74,90, 0.9);
+    padding: 0px;
+}
+
+.fifth {
+    background-color: #eee;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.fifth h3 {
+    padding-top: 50px;
+}
+
+.fbg {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+#arrow1::before {
+    content: "";
+    width: 5px;
+    border-left: 30px solid #fff;
+    border-right: 27px solid transparent;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    top: 135px;
+    left: 110px;
+}
+
+#arrow2::before {
+    content: "";
+    width: 5px;
+    border-left: 30px solid #fff;
+    border-right: 27px solid transparent;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    top: 135px;
+    left: 110px;
+}
+
+#arrow3::before {
+    content: "";
+    width: 5px;
+    border-left: 30px solid #fff;
+    border-right: 27px solid transparent;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    top: 135px;
+    left: 110px;
+}
+
+.sixth {
+    background-color: rgb(41, 48, 46);
+    padding: 50px 0;
+}
+
+.sixth h2 {
+    font-size: 28px;
+    color: #fff;
+}
+
+.lead3 {
+    color: #999;
+}
+
+.bold {
+    color: #0cb8b6;
+    font-size: 20px;
+}
+
+.seventh {
+    padding: 50px 0;
+}
+
+address {
+    font-size: 18px;
+    color: #999;
+    padding-top: 20px;
+}
+
+.form-group input {
+    border-radius: 0;
+    height: 40px;
+}
+
+.btn1 {
+    background-color: #0cb8b6;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 0px;
+    text-transform: capitalize;
+    font-size: 15px;
+    
+}
+
+.last {
+    background-color: #325C6A;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.last ul {
+    list-style-type: circle;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+footer {
+    border-top: 0.2px solid  rgba(255, 255, 255, 0.9);
+    color: #fff;
+    background-color: #325C6A;
+}
+
+#abc {
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    background-color: deepskyblue;
+}
+
+#abc3 {
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    background-color: brown;
+}
+
+#abc1 {
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    background-color: darkslateblue;
+}
+
+#abc2 {
+    height: 50px;
+    font-size: 30px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    background-color: skyblue;
+}
+
+@media (max-width:767px) {
+	#arrow1::before {
+    content: "";
+    width: 5px;
+    border-left: 30px solid #fff;
+    border-right: 27px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    top: 85px;
+    left: 110px;
+}
+	
+	#arrow2::before {
+    content: "";
+    width: 5px;
+    border-left: 30px solid #fff;
+    border-right: 27px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    top: 85px;
+	left: 110px;
+	}
+}
